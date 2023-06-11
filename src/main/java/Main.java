@@ -21,15 +21,17 @@ public class Main {
 		
 		/**
 		 * El ciclo for sirve para generar los numeros de secuencia
-		 * Ademas de guardarlos dentro del ArrayList 
+		 * Ademas de guardarlos dentro del ArrayList
+		 * Se buscan los numeros que sean pares 
 		 */
 		for(conteo = primerNumero+1; conteo < ultimoNumero; conteo++) {
-<<<<<<< HEAD (Current Change)
+
 			if(conteo%2 != 0) {
-=======
+
 			if(conteo%2 == 0) {
->>>>>>> Develop (Incoming Change)
+
 				list.add(conteo);
+			}
 			}
 		}
 		/**
