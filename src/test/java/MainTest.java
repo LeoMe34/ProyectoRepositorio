@@ -11,9 +11,9 @@ public class MainTest {
 	@Test
 	public void test01() {
 		int numero1 = 1;
-		int numero2 = 8;
+		int numero2 = 10;
 		
-		List<Integer> valorEsperado =  Arrays.asList(2,3,4,5,6,7);
+		List<Integer> valorEsperado =  Arrays.asList(2,4,6,8);
 		List<Integer> valorObtenido = Main.numeros(numero1, numero2);
 		assertEquals(valorEsperado, valorObtenido);	
 	}
