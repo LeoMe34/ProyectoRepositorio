@@ -24,7 +24,9 @@ public class Main {
 		 * Ademas de guardarlos dentro del ArrayList 
 		 */
 		for(conteo = primerNumero+1; conteo < ultimoNumero; conteo++) {
-			list.add(conteo);
+			if(conteo%2 != 0) {
+				list.add(conteo);
+			}
 		}
 		/**
 		 * El metodo imprimir, mostraria en pantalla la secuencia pedida
