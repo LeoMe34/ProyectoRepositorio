@@ -24,6 +24,7 @@ public class Main {
 		 * Ademas de guardarlos dentro del ArrayList 
 		 */
 		for(conteo = primerNumero+1; conteo < ultimoNumero; conteo++) {
+<<<<<<< HEAD
 <<<<<<< HEAD (Current Change)
 			if(conteo%2 != 0) {
 =======
@@ -31,6 +32,9 @@ public class Main {
 >>>>>>> Develop (Incoming Change)
 				list.add(conteo);
 			}
+=======
+			list.add(conteo);
+>>>>>>> parent of 03c454f (Imprimir numeros pares en la pantalla)
 		}
 		/**
 		 * El metodo imprimir, mostraria en pantalla la secuencia pedida
